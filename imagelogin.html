@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/download.png">
+    <title>Login Successful</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 80vh;
+            margin-top: 20px;
+            margin-right: 100px;
+        
+           
+         
+        }
+        .container .logo img{
+            display: flex;
+            height: 105px;
+            width: 100px;
+            position: absolute;
+           
+          
+            
+        }
+        span{
+            color: green;
+        }
+        .container .head{
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(70, 65, 65);
+            letter-spacing: 2px;
+            margin-top: 135px;
+            position: relative;
+            margin-left: 10px;
+            
+        }
+        @media screen and (max-width:768px){
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+            }
+            .container .head{
+                margin-left: 120px;
+            }
+        }
+        @media screen and (max-width:320px) {
+            .container{
+                display: flex;
+                flex-direction: column;
+                
+            }
+            .container .head{
+                font-size: 8px;
+              
+                
+            }
+            .container .logo img{
+                height: 100px;
+                width: 100px;
+                
+            }
+    
+            
+        }
+    
+        
+        
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="https://media.tenor.com/Hw7f-4l0zgEAAAAC/check-green.gif"></img>
+                
+            </div>
+            <div class="head">
+                <h1>WELCOME TO <span>BIKE WORLD</span></h1>
+            </div>
+        </div>
+    </body>
