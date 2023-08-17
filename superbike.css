@@ -94,6 +94,25 @@ nav ul li a{
     display: none;
 }
 
+/* -----------------------body -------------------*/
+section{
+  height: 80vh;
+  width: 100%;
+ 
+}
+
+.body-image img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.body-image img{
+    max-width: 100%;
+        height: auto;
+    }
+    
+
+
 @media screen and (max-width:1270px) {
     nav ul{
         display: none;
@@ -119,7 +138,10 @@ nav ul li a{
     .logo{
         margin-top: -10px;
     }
-    
+    /* .body-image img{
+    max-width: 100%;
+        height: auto;
+    } */
     
 }
 @media screen and (max-width:770px) {
@@ -149,29 +171,34 @@ nav ul li a{
 
 @media screen and (max-width:500px){
     .logo img{
-        width: 30px;
-        height: 20px;
+        width: 50px;
+        height: 40px;
     }
     .titel h1{
-        font-size: 9px;
+        font-size: 14px;
+        margin-top: 10px;
     }
     .titel span{
-        font-size: large;
+        font-size: x-large;
     }
     .log p {
         display: none;
     }
+    .log i{
+        font-size: 20px;
+    }
     .menu{
         margin-left: 5px;
-        font-size: 10px;
+        font-size: 13px;
+        opacity:0.8;
+    }
+    .menu option{
+        border: 1px solid white;
+        outline:  1px solid white;
     }
    .location .fa-solid{
     
-    font-size: 15px;
+    font-size: 20px;
     margin-left: -20px;
    } 
-        
-        
-    
-    
 }
