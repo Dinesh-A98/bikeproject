@@ -5,7 +5,9 @@
     list-style-type: none;
     cursor: pointer;
     text-decoration: none;
+  
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -19,6 +21,9 @@ nav{
     
   
 
+}
+body {
+   
 }
 
 
@@ -96,7 +101,7 @@ nav ul li a{
 
 /* -----------------------body -------------------*/
 section{
-  height: 80vh;
+  
   width: 100%;
  
 }
@@ -108,8 +113,357 @@ section{
 }
 .body-image img{
     max-width: 100%;
-        height: auto;
-    }
+   height: auto;
+ }
+.header{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+   padding: 10px;
+   margin-top: -30px;
+ 
+
+}
+.card-header img{
+    width: 100%;
+    height: 340px;
+    object-fit: contain;
+}
+.card-title h1{
+    
+    margin-top: 10px;
+    font-size: 40px;
+    margin-left: 10px;
+    color: rgb(85, 85, 85);
+    font-family: sans-serif;
+}
+.main-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+.card-icon i{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.card-header h1{
+   
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: rgb(65, 64, 64);
+}
+.card-body p{
+   
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: px;
+ 
+    letter-spacing: 1px;
+}
+.bmw{
+    font-size: 50px;
+  
+   margin-left: 10%;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+    color: rgb(90, 88, 88);
+    margin-top: 60px;
+}
+.bmw span{
+    margin-left: 50px;
+    color: rgb(2, 119, 61);
+    font-size: 40px;
+}
+.first-image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+   margin: 0;
+   padding: 0;
+}
+.first-image{
+ margin-left: 80px;
+ margin-top: 4%;
+
+   
+
+}
+.contaier-image img{
+    margin-top: 50px;
+}
+.section-contaent-image{
+  display: flex;
+  align-items: center;
+ margin-left: 10%;
+ margin-top: 40px;
+  font-size: 30px;
+  color: rgb(90, 88, 88);
+  font-family: sans-serif;
+}
+.section-contaent-image span{
+    color: rgb(2, 119, 61);
+    font-size: 40px;
+}
+
+
+.img-img-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+    gap: 50px;
+}
+.img-img{
+    flex: 50%;
+}
+.img-img img{
+    object-fit: contain;
+}
+.img-con{
+    flex: 50%;
+}
+.img-con h3{
+    font-size: 40px;
+    margin: 30px 5px;
+    color: rgb(90, 88, 88);
+    font-family: sans-serif;
+   
+    
+}
+.upcoming{
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    color: rgb(90, 88, 88);
+    
+    
+}
+.upcoming span{
+    color: rgb(2, 119, 61);
+    margin-left:15px;
+}
+.img-con p{
+    font-size: 17px;
+    margin: 20px 5px;
+    font-family: sans-serif;
+    margin-left: -10px;
+    width: 600px;
+    text-align: justify;
+    
+}
+.black-card{
+   
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 40px;
+    display: none;
+}
+.Celebrating{
+    letter-spacing: 1px;
+    width: 30%;
+}
+.button{
+    background-color: green;
+    padding: 14px;
+    font-weight: 600;
+}
+.full-image{
+    margin-top: 80px;
+}
+.cover-image img{
+    width: 100%;
+    margin-top: 50px;
+}
+.EVENMORERACING{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: rgb(90, 88, 88);
+
+}
+.EVENMORERACING span{
+   color:rgb(2, 119, 61);
+ 
+}
+
+.reviews{
+    display: flex;
+  
+    gap: 4px;
+   
+
+    
+}
+.image img{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    margin-top: -40px;
+    
+    
+}
+.image{
+    margin-bottom: 222px;
+
+}
+.image p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(102, 97, 97);
+    margin-left: 100px;
+    margin-top: -40px;
+    
+}
+h4{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+   
+
+}
+.icons{
+   
+    margin-top: 10px;
+    margin-left: 70px;
+    color: rgb(255, 255, 0);
+}
+.content{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.top{
+    margin-top: 10%;
+    margin-left: 10%;  
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(78, 78, 78);
+}
+.top span{
+    color: rgb(10, 138, 10);
+}
+.reviews .cardss{
+    display: flex;
+    flex-wrap:wrap;
+    height: 300px;
+    width:304px;
+    border: 2px solid rgb(168, 163, 163);
+   padding: 10px;
+    margin-left: 10px;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+.reviews {margin-left: 30px;
+
+}
+footer{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    margin-top: 50px;
+    height: 100vh;
+}
+.footer-page{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+.col1 h3{
+    margin-top: 10px; font-size: 20px;
+
+}
+
+.col1 p, .col2 p, .col3 p{
+    margin-top: 15px;
+}
+.col2 h3{
+    margin-top: 10px;font-size: 20px;
+}
+.col3 h3{
+    margin-top: 10px;font-size: 20px;
+}
+.sty{margin-top: 30px;}
+
+.foot p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 10px 0px;
+    line-height: 40px;
+}
+.foot{
+    padding: 10px;
+}
+.bikeworld{
+    margin-left: 10%;
+   
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    font-family: 'Barriecito', cursive;
+}
+.copyfooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-top: 45px;
+}
+.copy-icon i{
+    font-size: 30px;
+    gap: 10px;
+     margin-left: 30px;
+
+}
+.copy{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.copy p{
+    margin-left: -25px;
+}
+.bikeworld span{
+    
+        color: rgb(57, 255, 8);
+        font-size: 45px;
+    
+}
+  
     
 
 
@@ -138,12 +492,12 @@ section{
     .logo{
         margin-top: -10px;
     }
-    /* .body-image img{
-    max-width: 100%;
-        height: auto;
-    } */
+
+
     
 }
+/* 
+----------------media----------------- */
 @media screen and (max-width:770px) {
     input{
         display: none;
@@ -167,9 +521,255 @@ section{
     margin-left: 30px;
 }
 
+.header{
+   
+    width: 100%;
+    
+    display: flex;
+   padding: 10px;
+    justify-content: space-around;
+   margin-top: -70%;
+}.card{
+    width: 300px;
+    height: 400px;
+}
+.card-header img , h1{
+    max-width: 100%;
+
+}
+.card-header h1{
+    font-size: 16px;
+}
+.card-body p{
+    max-width: 100%;
+    font-size: 10px;
+}
+.card-title h1{
+    
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(85, 85, 85);
+    font-family: sans-serif;
+}
+.bmw{
+    font-size: 20px;
+  
+   margin-left: 10%;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+    color: rgb(90, 88, 88);
+
+}
+.card-title, .card-icon{
+  display: none;
+}
+.bmw span{
+    margin-left: 50px;
+    color: rgb(2, 119, 61);
+    font-size: 24px;
+}
+.section-contaent-image{
+    display: flex;
+    align-items: center;
+   margin-left: 10%;
+   margin-top: 40px;
+    font-size: 20px;
+    color: rgb(90, 88, 88);
+    font-family: sans-serif;
+  }
+  .section-contaent-image span{
+      color: rgb(2, 119, 61);
+      font-size: 20px;
+  }
+  .first-image img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+   margin: 0;
+   padding: 0;
+}
+.upcoming{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    color: rgb(90, 88, 88);
+    
+    
+}
+.upcoming span{
+    color: rgb(2, 119, 61);
+    margin-left:10px;
+}
+.img-img-img{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+   display: none;
+
+}
+.img-img img{
+    object-fit: contain;
+}
+.img-con{
+   
+}
+.img-con h3{
+    font-size: 20px;
+  
+    color: rgb(90, 88, 88);
+    font-family: sans-serif;
+   
+    
+}
+.black-card{
+
+}
+.annval{
+    font-size: 9px;
+}
+.Celebrating p{
+    font-size: 6px;
+   
+}
+.EVENMORERACING{
+    font-size: 20px;
 }
 
-@media screen and (max-width:500px){
+.button p{
+  padding: 3px;
+    font-size: 6px;
+}
+.img-con p{
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 30px;
+  width: 500px;
+    text-align: center;
+}
+.img-con .p{
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 80px;
+    text-align: center;
+    width: 500px;
+}
+.img-img img{
+    width: 400px;
+}
+.main-card{
+    display: flex;
+    
+    align-items: center;
+ 
+    text-align: center;
+    margin-top: 50%;
+}
+.card-header h1{
+    margin-top: -10px;
+}
+.card-header img{
+    margin-top: -50px;
+}
+.card-header img{
+    width: 200px;
+    margin-top: 20%;
+   
+
+}
+
+.top{
+    font-size: 20px;
+}
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+ 
+   
+}
+.cardss{
+    width: 100px;
+    height: 400px;
+}
+.content h4{
+    font-size: 25px;
+}
+ .fa-solid{
+    font-size: 14px;
+    margin: 0px 5px;
+    padding: 0;
+    
+}
+.icons {
+    margin-left: 60px;
+}
+.content p{
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.content{
+    line-height: 15px;
+    
+}
+footer-page{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+.col1 h3{
+    margin-top: 10px; font-size: 15px;
+
+}
+
+.col1 p, .col2 p, .col3 p{
+    margin-top: 15px;
+}
+.col2 h3{
+    margin-top: 10px;font-size: 15px;
+}
+.col3 h3{
+    margin-top: 10px;font-size: 15px;
+}
+.sty{margin-top: 30px;}
+
+.foot p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 10px 0px;
+    line-height: 40px;
+}
+.col1, .col2 , .col3 p{
+    
+font-size: 10px;
+
+}
+.foot{
+    font-size: 10px;
+    margin: -20px 0px;
+}
+.copy p{
+font-size: 10px;
+}
+.copy-icon i{
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width:530px){
     .logo img{
         width: 50px;
         height: 40px;
@@ -201,4 +801,123 @@ section{
     font-size: 20px;
     margin-left: -20px;
    } 
+   .header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: -140px;
+    margin-left: 30px;
+   
+   }
+   .card-header, .card-body{ 
+    font-size: 20px;
+  
+   
+    
+   }
+   .card-header h1{
+    margin-top: 10px;
+   }
+   .card-header img{
+    height: 100px;
+   
+   }
+   .bmw{
+    margin-top: 140px;
+    font-size: 15px;
+   }
+   .bmw span{
+    font-size: 15px;
+   }
+   .section-contaent-image{
+    font-size: 10px;
+   }
+   .section-contaent-image span{
+    font-size: 15px;
+   }
+   .first-image{
+   margin-left: -1px;
+   margin-left: 70px;
+   }
+   header{
+    margin-left: -50px;
+   }
+   .card-header img{
+    margin-left: 20px;
+   }
+   .reviews{
+    margin-left: -1px;
+    margin-left: 40px;
+   }
+   .col1 h3,.col2 h3, .col3 h3{
+    font-size: 10px;
+   }
+   .col1 p,.col2 p,.col3 p{
+    font-size: 7px;
+   }
+   .upcoming {
+    font-size: 15px;
+   }
+   .black-card h1{
+    font-size: 8px;
+
+   }
+   .button{
+    padding: 5px;
+   }
+   .copyfooter{
+    display: flex;
+    flex-direction: column;
+   }
+   .copy-icon{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: -50px;
+   }
+   .copy{
+    font-size: 9px;
+   }
 }
+@media screen  and (max-width:375px) {
+    .first-image{
+        width: 100px;
+        margin-left: -40px;
+        margin-left: 35px;
+        
+        
+        
+    }
+    .reviews{
+        margin-left: -10px;
+        margin-left: 30px;
+    }
+    .bikeworld{
+        font-size: 10px;
+    }
+    .bikeworld span{
+        font-size: 15px;
+    }
+    .foot{
+        font-size: 10px;
+    }
+    .copy p{
+        font-size: 9px;
+        margin-left: 10px;
+        line-height: 14px;
+    }
+    
+}
+ 
+    
+ @media screen and (max-width:320px) {
+   
+    .main-card{
+      margin-bottom: 30px
+        
+    }
+   
+      
+    
+    
+ }
+
