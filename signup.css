@@ -112,7 +112,7 @@ button{
     padding: 10px;
     font-size: small;
     background-color:green;
-   opacity: 1;
+  
     font-weight: 400;
     border: none;
     border-radius: 1px;
@@ -153,7 +153,7 @@ button a{
    
 @media screen and (max-width:425px) {
     .content{
-        width: 330px;
+        
        
         display: flex;
         flex-direction: column;
@@ -165,11 +165,13 @@ button a{
         border: 1px solid rgb(212, 212, 212, 0.5) ;
         margin-bottom: 10px;
         border-radius: 4px;
+     
     }
 
     input{
         height: 30px;
         margin: 10px 0px;
+        margin-left: -60px;
         padding: 10px;
         border-radius: 5px;
         outline: none;
@@ -182,7 +184,7 @@ button a{
         font-weight: 400;
       
         opacity: 0.8;
-        margin-left: 180px;
+       
         margin-bottom: 10px ;
     }
     .content .firsth4{
@@ -213,7 +215,7 @@ button a{
 @media screen and (max-width:375px) {
     .content{
         width: 280px;
-        height: 370px;
+        height: 480px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -224,24 +226,25 @@ button a{
         border: 1px solid rgb(212, 212, 212, 0.5) ;
         margin-bottom: 10px;
         border-radius: 4px;
+        margin-top: 50px;
     }
   
     
     .p{
     
         color: blue;
-        font-size: 12px;
+        font-size: 5px;
         font-weight: 400;
       
         opacity: 0.8;
-        margin-left: 120px;
+        
         margin-bottom: 10px ;
     }
 
     .content  p{
         font-family: sans-serif;
         margin-top: 10px;
-        font-size: small;
+      
     }
     
 
