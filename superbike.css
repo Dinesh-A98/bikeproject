@@ -5,7 +5,8 @@
     list-style-type: none;
     cursor: pointer;
     text-decoration: none;
-  
+    
+   
 }
 
 nav{
@@ -23,7 +24,7 @@ nav{
 
 }
 body {
-   
+   background-color: rgb(255, 255, 255);
 }
 
 
@@ -194,7 +195,7 @@ section{
    padding: 0;
 }
 .first-image{
- margin-left: 80px;
+ margin-left: 120px;
  margin-top: 4%;
 
    
@@ -349,7 +350,7 @@ h4{
 .icons{
    
     margin-top: 10px;
-    margin-left: 70px;
+    
     color: rgb(255, 255, 0);
 }
 .content{
@@ -377,7 +378,7 @@ h4{
     width:304px;
     border: 2px solid rgb(168, 163, 163);
    padding: 10px;
-    margin-left: 10px;
+  margin-left: 30px;
     margin-top: 5%;
     border-radius: 10px;
 
@@ -389,7 +390,7 @@ footer{
     background-color: rgb(48, 47, 47);
     color: white;
     margin-top: 50px;
-    height: 100vh;
+   
 }
 .footer-page{
     display: flex;
@@ -492,16 +493,28 @@ footer{
     .logo{
         margin-top: -10px;
     }
+    .img-img-img{
+        padding: 10px;
+    }
+    .image{
+        margin-top: -30px;
+        
+    }
+    .content p{
+        font-size: 14px;
+    }
 
 
     
 }
 /* 
 ----------------media----------------- */
-@media screen and (max-width:770px) {
+@media screen and (max-width:768px) {
     input{
         display: none;
     }
+
+   
     .logo img{
         width: 50px;
         height: 30px;
@@ -526,23 +539,38 @@ footer{
     width: 100%;
     
     display: flex;
-   padding: 10px;
+   
     justify-content: space-around;
    margin-top: -70%;
+  
+  
 }.card{
     width: 300px;
     height: 400px;
+   
+
 }
 .card-header img , h1{
     max-width: 100%;
+    margin-top: -50px;
+   
 
+
+}
+.card-header{
+   
+   
 }
 .card-header h1{
     font-size: 16px;
+    margin-left: 10px;
+    
 }
 .card-body p{
-    max-width: 100%;
+    padding: 10px;
     font-size: 10px;
+
+   
 }
 .card-title h1{
     
@@ -583,11 +611,15 @@ footer{
       font-size: 20px;
   }
   .first-image img{
-    width: 250px;
+    display: none;
+    width: 200px;
     height: 200px;
     object-fit: cover;
    margin: 0;
    padding: 0;
+}
+.first-image{
+    margin-left: 50px;
 }
 .upcoming{
     font-size: 25px;
@@ -690,13 +722,20 @@ footer{
 .reviews{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 70px;
+    
  
+   margin-left: 60px;
+ 
+   
+}
+.image{
+   
    
 }
 .cardss{
     width: 100px;
     height: 400px;
+   margin-left: -150px;
 }
 .content h4{
     font-size: 25px;
@@ -721,10 +760,12 @@ footer{
 }
 footer-page{
     display: flex;
-    padding: 10px;
+   
     justify-content: space-around;
     font-family: sans-serif;
+  
 }
+
 .col1 h3{
     margin-top: 10px; font-size: 15px;
 
@@ -769,10 +810,14 @@ font-size: 10px;
 }
 }
 
-@media screen and (max-width:530px){
+@media screen and (max-width:425px){
     .logo img{
         width: 50px;
         height: 40px;
+        margin-left: -20px;
+    }
+    .nav{
+       
     }
     .titel h1{
         font-size: 14px;
@@ -786,9 +831,10 @@ font-size: 10px;
     }
     .log i{
         font-size: 20px;
+        margin-left: -20px;
     }
     .menu{
-        margin-left: 5px;
+        margin-left: -10px;
         font-size: 13px;
         opacity:0.8;
     }
@@ -799,68 +845,108 @@ font-size: 10px;
    .location .fa-solid{
     
     font-size: 20px;
-    margin-left: -20px;
+    margin-left: -30px;
    } 
    .header{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-top: -140px;
-    margin-left: 30px;
+    margin-top: 20px;
+    
+   
    
    }
    .card-header, .card-body{ 
     font-size: 20px;
+    margin-top: 20px;
+    
   
    
     
    }
    .card-header h1{
-    margin-top: 10px;
+ 
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 30px;
+   }
+   .card-body p{
+    font-size: 10px;
+    margin-left: 30px;
+    display: none;
+   
    }
    .card-header img{
-    height: 100px;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
    
    }
    .bmw{
-    margin-top: 140px;
-    font-size: 15px;
+    margin-top: 400px;
+    font-size: 19px;
    }
    .bmw span{
-    font-size: 15px;
+    font-size: 20px;
    }
    .section-contaent-image{
-    font-size: 10px;
+    font-size: 15px;
    }
    .section-contaent-image span{
-    font-size: 15px;
+    font-size: 20px;
    }
    .first-image{
    margin-left: -1px;
    margin-left: 70px;
    }
+   .first-image img{
+    width: 180px;
+    height: 180px;
+   }
    header{
     margin-left: -50px;
+    
    }
    .card-header img{
     margin-left: 20px;
+    width: 300px;
+    height: 300px;
+   }
+   .card-header h1{
+    margin-top: 20px;
    }
    .reviews{
     margin-left: -1px;
-    margin-left: 40px;
+    padding: 10px;
+   
+   }
+   .icons {
+    /* margin-left: 130px; */
+   }
+   .image{
+    /* margin-left: 90px; */
+   
+   }
+   .reviews .cardss{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
    }
    .col1 h3,.col2 h3, .col3 h3{
-    font-size: 10px;
+    font-size: 13px;
    }
    .col1 p,.col2 p,.col3 p{
-    font-size: 7px;
+    font-size: 10px;
    }
    .upcoming {
-    font-size: 15px;
+    font-size: 19px;
    }
    .black-card h1{
     font-size: 8px;
 
+   }
+   .video{
+    margin-top: 300px;
    }
    .button{
     padding: 5px;
@@ -877,47 +963,76 @@ font-size: 10px;
    .copy{
     font-size: 9px;
    }
+  .EVENMORERACING{
+    font-size: 19px;
+  }
+  .foot{
+    font-size: 15px;
+  }
+  .copy{
+    font-size: 19px;
+ 
+
+  }
 }
-@media screen  and (max-width:375px) {
-    .first-image{
-        width: 100px;
-        margin-left: -40px;
-        margin-left: 35px;
-        
-        
-        
-    }
-    .reviews{
-        margin-left: -10px;
-        margin-left: 30px;
-    }
-    .bikeworld{
-        font-size: 10px;
-    }
-    .bikeworld span{
+@media screen and (min-width:375px) {
+        .section-contaent-image h1{
+            font-size: 15px;
+        }
+        .image{
+            margin-left: 10px;
+            gap: 10px;
+            padding: 0px 20px;
+        }
+        .icons{
+            /* padding: 0px 20px; */
+        }
+        .copy p{
+            margin-left: 10px;
+        }
+}
+@media screen and (max-width:320px) {
+
+    .bmw, .bmw span{
         font-size: 15px;
     }
-    .foot{
+    .section-contaent-image h1, .section-contaent-image span {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .upcoming{
+        font-size: 15px;
+    }
+    .top{
+        margin-top: -30px;
+    }
+    .foot p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .copy p{
+        font-size: 8px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .col1 h3{
         font-size: 10px;
     }
-    .copy p{
-        font-size: 9px;
-        margin-left: 10px;
-        line-height: 14px;
+    .col2 h3{
+        font-size: 10px;
     }
-    
+    .col3 h3{
+        font-size: 10px;
+    }
 }
+
  
     
- @media screen and (max-width:320px) {
-   
-    .main-card{
-      margin-bottom: 30px
-        
-    }
+
    
       
     
     
- }
+ 
 
